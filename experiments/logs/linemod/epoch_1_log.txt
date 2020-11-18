@@ -1,0 +1,6 @@
+2020-11-17 22:13:50,137 : Train time 00h 00m 00s, Training started
+2020-11-17 22:16:01,490 : Train time 00h 02m 11s Epoch 1 Batch 1 Frame 8 Avg_dis:0.19850260019302368
+2020-11-17 22:16:05,533 : Train time 00h 02m 15s Epoch 1 Batch 2 Frame 16 Avg_dis:0.18597378581762314
+2020-11-17 22:16:08,969 : Train time 00h 02m 18s Epoch 1 Batch 3 Frame 24 Avg_dis:0.16881657764315605
+2020-11-17 22:22:35,577 : Train time 00h 08m 45s Epoch 1 Batch 4 Frame 32 Avg_dis:0.12599266041070223
+2020-11-17 22:24:46,669 : Train time 00h 10m 56s Epoch 1 Batch 5 Frame 40 Avg_dis:0.12188308406621218
