@@ -86,10 +86,11 @@ class PoseDataset(data.Dataset):
         self.num_pt_mesh_large = 500
         self.num_pt_mesh_small = 500
         self.symmetry_obj_idx = [7, 8]
-
+        self.transforms=transforms.Compose(transforms.Resize([3,160,120]),transforms.ToTensor)
     def __getitem__(self, index):
         img = Image.open(self.list_rgb[index])
         ori_img = np.array(img)
+        img=self.transforms(img)
         depth = np.array(Image.open(self.list_depth[index]))
         label = np.array(Image.open(self.list_label[index]))
         obj = self.list_obj[index]
